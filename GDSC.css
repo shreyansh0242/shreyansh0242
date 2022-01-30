@@ -12,6 +12,11 @@ html{
 section{
     padding: 100px 0;
 }
+.title2{
+	color:crimson;
+	font-weight:500;
+	font-family: 'Ubuntu', sans-serif;
+}
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
@@ -267,10 +272,10 @@ animation-delay:8s;
   margin-right: 0;
 }
 .home .home-content .text-1{
-    font-size: 27px;
+    font-size: 30px;
 }
 .home .home-content .text-2{
-    font-size: 75px;
+    font-size: 65px;
     font-weight: 600;
     margin-left: -3px;
 }
@@ -286,6 +291,7 @@ animation-delay:8s;
 /* about section styling */
 .about .title::after{
     content: "who I am";
+	font-size:30px;
 }
 .about .about-content .left{
     width: 45%;
@@ -401,6 +407,7 @@ background:	black;
 /* skills section styling */
 .skills .title::after{
     content: "what I know";
+	font-size:25px;
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
